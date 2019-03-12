@@ -6,8 +6,8 @@
 # Explore Ruby's built in methods for String like capitalize, downcase, upcase
 
 # Prints prompts to enter parts of speech, and stores user's input into variables (without \n characters)
-prints "Welcome to my MadLib game!"
-prints "\n Please enter the following:"
+print "Welcome to my MadLib game!"
+print "\n Please enter the following:"
 puts "\n Noun (plural):"
 nouns = gets.chomp
 puts "\n Place:"
@@ -34,19 +34,19 @@ puts "\n Verb:"
 verb2 = gets.chomp
 
 # Prints story with user's input (by referencing variables)
-prints "Romeo and Juliet: Prologue \n
+print "Romeo and Juliet: Prologue \n
 
-Two " + nouns ", both alike in dignity, \n
-In fair " + place ", where we lay our scene, \n
-From ancient " + noun " break to new mutiny, \n
+Two #{nouns}, both alike in dignity, \n
+In fair #{place}, where we lay our scene, \n
+From ancient #{noun} break to new mutiny, \n
 Where civil blood makes civil hands unclean. \n
 From forth the fatal loins of these two foes \n
-A pair of star-cross`d " + nouns2 " take their life; \n
+A pair of star-cross`d #{nouns2} take their life; \n
 Whole misadventured piteous overthrows \n
-Do with their death bury their " + nouns3 "` strife. \n
-The fearful passage of their " + adjective " love, \n
-And the continuance of their " + nouns3 "` rage, \n
-Which, but their children`s end, nought could " + verb ", \n
-Is now the " + number " hours` traffic of our stage; \n
-The which if you with " + adjective2 " " + bodyPart " attend, \n
-What here shall " + verb2 ", our toil shall strive to mend. \n "
+Do with their death bury their #{nouns3}` strife. \n
+The fearful passage of their #{adjective} love, \n
+And the continuance of their #{nouns3} rage, \n
+Which, but their children`s end, nought could #{verb}, \n
+Is now the #{number} hours` traffic of our stage; \n
+The which if you with #{adjective2} #{bodyPart} attend, \n
+What here shall #{verb2}, our toil shall strive to mend. \n "
